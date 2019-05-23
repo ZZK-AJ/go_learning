@@ -14,7 +14,7 @@ func TestCompareArray(t *testing.T) {
 	//	c := [...]int{1, 2, 3, 4, 5}
 	d := [...]int{1, 2, 3, 4}
 	t.Log(a == b)
-	//t.Log(a == c)
+	//t.Log(a == c)  长度不同不能比较
 	t.Log(a == d)
 }
 

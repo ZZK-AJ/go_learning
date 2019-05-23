@@ -11,7 +11,7 @@ func TestFibList(t *testing.T) {
 	// 	a int = 1
 	// 	b     = 1
 	// )
-	a := 1
+	a := 1  //更快的方式，使用类型推断
 	// a := 1
 	b := 1
 	t.Log(a)
@@ -21,7 +21,6 @@ func TestFibList(t *testing.T) {
 		a = b
 		b = tmp + a
 	}
-
 }
 
 func TestExchange(t *testing.T) {
@@ -30,6 +29,6 @@ func TestExchange(t *testing.T) {
 	// tmp := a
 	// a = b
 	// b = tmp
-	a, b = b, a
+	a, b = b, a  //在一个赋值语句中，可以对多个进行赋值
 	t.Log(a, b)
 }
