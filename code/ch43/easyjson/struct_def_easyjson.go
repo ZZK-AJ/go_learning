@@ -97,7 +97,7 @@ func easyjson7c82d03EncodeCh43Easyjson(out *jwriter.Writer, in JobInfo) {
 	out.RawByte('}')
 }
 
-// MarshalJSON supports json.Marshaler interface
+// MarshalJSON supports jsontest.Marshaler interface
 func (v JobInfo) MarshalJSON() ([]byte, error) {
 	w := jwriter.Writer{}
 	easyjson7c82d03EncodeCh43Easyjson(&w, v)
@@ -109,7 +109,7 @@ func (v JobInfo) MarshalEasyJSON(w *jwriter.Writer) {
 	easyjson7c82d03EncodeCh43Easyjson(w, v)
 }
 
-// UnmarshalJSON supports json.Unmarshaler interface
+// UnmarshalJSON supports jsontest.Unmarshaler interface
 func (v *JobInfo) UnmarshalJSON(data []byte) error {
 	r := jlexer.Lexer{Data: data}
 	easyjson7c82d03DecodeCh43Easyjson(&r, v)
@@ -180,7 +180,7 @@ func easyjson7c82d03EncodeCh43Easyjson1(out *jwriter.Writer, in Employee) {
 	out.RawByte('}')
 }
 
-// MarshalJSON supports json.Marshaler interface
+// MarshalJSON supports jsontest.Marshaler interface
 func (v Employee) MarshalJSON() ([]byte, error) {
 	w := jwriter.Writer{}
 	easyjson7c82d03EncodeCh43Easyjson1(&w, v)
@@ -192,7 +192,7 @@ func (v Employee) MarshalEasyJSON(w *jwriter.Writer) {
 	easyjson7c82d03EncodeCh43Easyjson1(w, v)
 }
 
-// UnmarshalJSON supports json.Unmarshaler interface
+// UnmarshalJSON supports jsontest.Unmarshaler interface
 func (v *Employee) UnmarshalJSON(data []byte) error {
 	r := jlexer.Lexer{Data: data}
 	easyjson7c82d03DecodeCh43Easyjson1(&r, v)
@@ -263,7 +263,7 @@ func easyjson7c82d03EncodeCh43Easyjson2(out *jwriter.Writer, in BasicInfo) {
 	out.RawByte('}')
 }
 
-// MarshalJSON supports json.Marshaler interface
+// MarshalJSON supports jsontest.Marshaler interface
 func (v BasicInfo) MarshalJSON() ([]byte, error) {
 	w := jwriter.Writer{}
 	easyjson7c82d03EncodeCh43Easyjson2(&w, v)
@@ -275,7 +275,7 @@ func (v BasicInfo) MarshalEasyJSON(w *jwriter.Writer) {
 	easyjson7c82d03EncodeCh43Easyjson2(w, v)
 }
 
-// UnmarshalJSON supports json.Unmarshaler interface
+// UnmarshalJSON supports jsontest.Unmarshaler interface
 func (v *BasicInfo) UnmarshalJSON(data []byte) error {
 	r := jlexer.Lexer{Data: data}
 	easyjson7c82d03DecodeCh43Easyjson2(&r, v)

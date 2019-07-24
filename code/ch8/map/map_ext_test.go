@@ -2,7 +2,9 @@ package map_ext
 
 import "testing"
 
-func TestMapWithFunValue(t *testing.T) {
+// 定义一个值为方法 func(op int) int{} 的 map
+// 实现工厂模式
+func TestMapWithFuncValue(t *testing.T) {
 	m := map[int]func(op int) int{}
 	m[1] = func(op int) int { return op }
 	m[2] = func(op int) int { return op * op }
@@ -12,6 +14,7 @@ func TestMapWithFunValue(t *testing.T) {
 
 func TestMapForSet(t *testing.T) {
 	mySet := map[int]bool{}
+	// 添加元素
 	mySet[1] = true
 	n := 3
 	if mySet[n] {
@@ -22,7 +25,7 @@ func TestMapForSet(t *testing.T) {
 	mySet[3] = true
 	t.Log(len(mySet))
 	delete(mySet, 1)
-	n = 1
+	n = 1                                       
 	if mySet[n] {
 		t.Logf("%d is existing", n)
 	} else {

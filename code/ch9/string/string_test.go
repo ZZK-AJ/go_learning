@@ -17,6 +17,7 @@ func TestString(t *testing.T) {
 	s = "中"
 	t.Log(len(s)) //是byte数
 
+	// rune 可以取出里面的 Unicode
 	c := []rune(s)
 	t.Log(len(c))
 	//	t.Log("rune size:", unsafe.Sizeof(c[0]))
@@ -27,6 +28,7 @@ func TestString(t *testing.T) {
 func TestStringToRune(t *testing.T) {
 	s := "中华人民共和国"
 	for _, c := range s {
+		// ("%[1]c %[1]x", c) 表示 %c %x 都是以第一个 c 格式化
 		t.Logf("%[1]c %[1]x", c)
 	}
 }

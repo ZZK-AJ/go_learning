@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+// 自定义类型
+// 把很长的方法 定义为一个自己的类型
 type IntConv func(op int) int
 
 func timeSpent(inner IntConv) IntConv {
@@ -24,5 +26,5 @@ func slowFun(op int) int {
 
 func TestFn(t *testing.T) {
 	tsSF := timeSpent(slowFun)
-	t.Log(tsSF(10))
+	t.Log(tsSF(13))
 }
