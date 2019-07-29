@@ -1,6 +1,7 @@
 package fib
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -36,4 +37,26 @@ func TestExchange(t *testing.T) {
 	a, b = b, a  //在一个赋值语句中，可以对多个进行赋值
 	t.Log(a, b)
 	//fmt.Println(a,b)
+}
+
+// 测试变量是否能被重复赋值 及 重新定义同名变量
+func TestVarChange(t *testing.T)  {
+	a := []string{"1","aj","hah"}
+	fmt.Println(a)
+	b := []string{"1","2","3","..."}
+	fmt.Println(b)
+
+	a = b
+	fmt.Println(b)
+	fmt.Println(a)
+
+	//a := []string{"12", "23", "34", "45"}  // ide 会报错，不用重复定义
+	a = returnFuncVar()
+	fmt.Println(a)
+
+}
+
+func returnFuncVar() []string {
+	a := []string{"12", "23", "34", "45"}
+	return a
 }

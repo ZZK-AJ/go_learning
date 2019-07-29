@@ -1,6 +1,9 @@
 package my_map
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 // 三种 map 的初始化
 func TestInitMap(t *testing.T) {
@@ -15,6 +18,10 @@ func TestInitMap(t *testing.T) {
 	// 第二位是 cap
 	m3 := make(map[int]int, 10)
 	t.Logf("len m3=%d", len(m3))
+
+	sm := map[string]string{"zzk":"1","aj":"2"}
+	t.Log(sm)
+	fmt.Println(sm)
 }
 /*
    map_test.go:8: 4

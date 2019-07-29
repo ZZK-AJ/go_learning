@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b02de5-4c82-4032-89af-44134816a037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/ch5-condition-loop/condition/condition_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch1/hello/hello_world.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch1/hello/hello_world.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch10/func/func_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch10/func/func_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch11/customer_type/customer_type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch11/customer_type/customer_type_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch11/encapsulation/encap_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch11/encapsulation/encap_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch11/interface/interface_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch11/interface/interface_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch12/extension/extension_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch12/extension/extension_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch13/empty_interface/empty_interface_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch13/empty_interface/empty_interface_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch13/polymorphsim/polymorphsim_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch13/polymorphsim/polymorphsim_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch14/error/err_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch14/error/err_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch14/panic_recover/panic_recover_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch14/panic_recover/panic_recover_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch2/constant_test/constant_try_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch2/constant_test/constant_try_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/ch1/hello/hello_world.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch1-hello world/hello/hello_world.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/ch2/fib/fib_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch2/fib/fib_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch3/type_test/type_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch3/type_test/type_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch4/operator_test/operator_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch4-operator/operator_test/operator_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch42/json/embedded_json_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch42/jsontest/embedded_json_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch42/json/struct_def.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch42/jsontest/struct_def.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch43/easyjson/struct_def.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch43/easyjson/struct_def.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch43/easyjson/struct_def_easyjson.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch43/easyjson/struct_def_easyjson.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch45/roa/resource_oriented_arc.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch45/roa/resource_oriented_arc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch47/optmization.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch47/optmization.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch47/structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch47/structs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch47/structs_easyjson.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch47/structs_easyjson.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch5/condition/condition_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch5/loop/loop_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch5-condition-loop/loop/loop_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch6/array_test/array_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch6-array-slice/array_test/array_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch6/slice_test/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch6-array-slice/slice_test/slice_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch7/map/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch7-map/map/map_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch8/map/map_ext_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch8/map/map_ext_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch9/string/string_fun_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch9/string/string_fun_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch9/string/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch9/string/string_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/菜鸟教程go学习笔记/1-hello world.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/菜鸟教程go学习笔记/2-数据类型及变量常量.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/菜鸟教程go学习笔记/3-运算符.go" beforeDir="false" afterPath="$PROJECT_DIR$/note/课堂笔记" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/ch7-map/map/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch7-map/map/map_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/ch14/error/err_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="1288">
               <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
             </state>
           </provider>
@@ -57,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/ch14/panic_recover/panic_recover_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
+            <state relative-caret-position="644">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
@@ -66,11 +36,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/ch6-array-slice/slice_test/slice_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="3013">
               <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
               <folding>
                 <element signature="e#20#48#0" expanded="true" />
-                <element signature="e#1180#1400#0" />
               </folding>
             </state>
           </provider>
@@ -84,13 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/ch42/jsontest/embedded_json_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-              <folding>
-                <element signature="e#18#65#0" expanded="true" />
-                <element signature="e#327#331#0" />
-                <element signature="e#299#318#0" />
-              </folding>
+            <state relative-caret-position="1104">
+              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,12 +66,10 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/ch43/easyjson/struct_def_easyjson.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5385" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/ch42/jsontest/struct_def.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -117,10 +79,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/ch13/polymorphsim/polymorphsim_test.go">
+        <entry file="file://$PROJECT_DIR$/code/ch2/constant_test/constant_try_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="575">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/ch2/fib/fib_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/ch7-map/map/map_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="e#16#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +125,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/code/ch1/hello/hello_world.go" />
-        <option value="$PROJECT_DIR$/code/ch2/fib/fib_test.go" />
         <option value="$PROJECT_DIR$/code/ch2/constant_test/constant_try_test.go" />
         <option value="$PROJECT_DIR$/code/ch3/type_test/type_test.go" />
         <option value="$PROJECT_DIR$/code/ch4/operator_test/operator_test.go" />
@@ -167,6 +149,8 @@
         <option value="$PROJECT_DIR$/code/ch42/json/embedded_json_test.go" />
         <option value="$PROJECT_DIR$/code/ch42/jsontest/struct_def.go" />
         <option value="$PROJECT_DIR$/code/ch42/jsontest/embedded_json_test.go" />
+        <option value="$PROJECT_DIR$/code/ch2/fib/fib_test.go" />
+        <option value="$PROJECT_DIR$/code/ch7-map/map/map_test.go" />
       </list>
     </option>
   </component>
@@ -181,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -191,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,19 +191,14 @@
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch2" type="462c0819:PsiDirectoryNode" />
+              <item name="ch7-map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="ch6-array-slice" type="462c0819:PsiDirectoryNode" />
+              <item name="ch7-map" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -437,9 +415,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -464,25 +444,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.embedded_json_test.go (1)">
-    <configuration name="TestEmptySlice in slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestInitMap in map_test.go">
+    <configuration name="TestInitMap in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/code/ch6-array-slice/slice_test" />
+      <working_directory value="$PROJECT_DIR$/code/ch7-map/map" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/code/ch6-array-slice/slice_test/slice_test.go" />
-      <pattern value="^TestEmptySlice$" />
+      <filePath value="$PROJECT_DIR$/code/ch7-map/map/map_test.go" />
+      <pattern value="^TestInitMap$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestRemoveDuplicateElement in slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVarChange in fib_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/code/ch6-array-slice/slice_test" />
+      <working_directory value="$PROJECT_DIR$/code/ch2/fib" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/code/ch6-array-slice/slice_test/slice_test.go" />
-      <pattern value="^TestRemoveDuplicateElement$" />
+      <filePath value="$PROJECT_DIR$/code/ch2/fib/fib_test.go" />
+      <pattern value="^TestVarChange$" />
       <method v="2" />
     </configuration>
     <configuration name="embedded_json_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -503,41 +483,26 @@
       <filePath value="$PROJECT_DIR$/code/ch42/json/embedded_json_test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="fib_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/code/ch6-array-slice/slice_test" />
+      <working_directory value="$PROJECT_DIR$/code/ch2/fib" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/code/ch6-array-slice/slice_test/slice_test.go" />
+      <filePath value="$PROJECT_DIR$/code/ch2/fib/fib_test.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestInitMap in map_test.go" />
+        <item itemvalue="Go Test.TestVarChange in fib_test.go" />
+        <item itemvalue="Go Test.fib_test.go" />
         <item itemvalue="Go Test.embedded_json_test.go (1)" />
         <item itemvalue="Go Test.embedded_json_test.go" />
-        <item itemvalue="Go Test.TestEmptySlice in slice_test.go" />
-        <item itemvalue="Go Test.slice_test.go" />
-        <item itemvalue="Go Test.TestRemoveDuplicateElement in slice_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestEmptySlice_in_slice_test_go - 2019.07.23 at 10h 58m 43s.xml">
-      <configuration name="TestEmptySlice in slice_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmptySlice_in_slice_test_go - 2019.07.23 at 10h 59m 11s.xml">
-      <configuration name="TestEmptySlice in slice_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmptySlice_in_slice_test_go - 2019.07.23 at 10h 59m 23s.xml">
-      <configuration name="TestEmptySlice in slice_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmptySlice_in_slice_test_go - 2019.07.23 at 10h 59m 36s.xml">
-      <configuration name="TestEmptySlice in slice_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmptySlice_in_slice_test_go - 2019.07.23 at 10h 59m 59s.xml">
-      <configuration name="TestEmptySlice in slice_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestEmptySlice_in_slice_test_go - 2019.07.23 at 11h 00m 09s.xml">
       <configuration name="TestEmptySlice in slice_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -553,59 +518,58 @@
     <history-entry file="embedded_json_test_go_(1) - 2019.07.23 at 15h 08m 25s.xml">
       <configuration name="embedded_json_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="fib_test_go - 2019.07.24 at 16h 36m 15s.xml">
+      <configuration name="fib_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestVarChange_in_fib_test_go - 2019.07.24 at 16h 40m 20s.xml">
+      <configuration name="TestVarChange in fib_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInitMap_in_map_test_go - 2019.07.25 at 19h 27m 17s.xml">
+      <configuration name="TestInitMap in map_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInitMap_in_map_test_go - 2019.07.25 at 19h 29m 15s.xml">
+      <configuration name="TestInitMap in map_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInitMap_in_map_test_go - 2019.07.25 at 19h 29m 33s.xml">
+      <configuration name="TestInitMap in map_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.17561762" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863762" visible="true" weight="0.19978517" />
       <window_info id="Structure" order="1" sideWeight="0.5013624" side_tool="true" weight="0.25427684" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Profiler" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" weight="0.18443114" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.285558" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3129103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Profiler" order="10" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.18443114" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/ch1/hello/hello_world.go">
+    <entry file="file://$PROJECT_DIR$/code/ch1-hello world/hello/hello_world.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#14#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch2/constant_test/constant_try_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch2/fib/fib_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#13#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -727,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch7-map/map/map_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/ch12/extension/extension_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -765,48 +722,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch14/error/err_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch14/panic_recover/panic_recover_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch6-array-slice/slice_test/slice_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
-          <folding>
-            <element signature="e#20#48#0" expanded="true" />
-            <element signature="e#1180#1400#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch36/bdd/bdd_spec_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch43/easyjson/struct_def_easyjson.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch43/easyjson/struct_def.go">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/code/ch43/easyjson/embedded_json_test.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -815,22 +736,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/ch42/jsontest/embedded_json_test.go">
+    <entry file="file://$PROJECT_DIR$/code/ch14/error/err_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="1288">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ch14/panic_recover/panic_recover_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ch6-array-slice/slice_test/slice_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3013">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
           <folding>
-            <element signature="e#18#65#0" expanded="true" />
-            <element signature="e#327#331#0" />
-            <element signature="e#299#318#0" />
+            <element signature="e#20#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ch36/bdd/bdd_spec_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ch42/jsontest/embedded_json_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ch43/easyjson/struct_def.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ch43/easyjson/struct_def_easyjson.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/code/ch42/jsontest/struct_def.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ch2/constant_test/constant_try_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ch2/fib/fib_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ch7-map/map/map_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#16#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
