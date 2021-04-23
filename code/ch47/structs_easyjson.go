@@ -77,7 +77,7 @@ func easyjson6a975c40EncodeCh47(out *jwriter.Writer, in Response) {
 	out.RawByte('}')
 }
 
-// MarshalJSON supports json.Marshaler interface
+// MarshalJSON supports jsontest.Marshaler interface
 func (v Response) MarshalJSON() ([]byte, error) {
 	w := jwriter.Writer{}
 	easyjson6a975c40EncodeCh47(&w, v)
@@ -89,7 +89,7 @@ func (v Response) MarshalEasyJSON(w *jwriter.Writer) {
 	easyjson6a975c40EncodeCh47(w, v)
 }
 
-// UnmarshalJSON supports json.Unmarshaler interface
+// UnmarshalJSON supports jsontest.Unmarshaler interface
 func (v *Response) UnmarshalJSON(data []byte) error {
 	r := jlexer.Lexer{Data: data}
 	easyjson6a975c40DecodeCh47(&r, v)
@@ -192,7 +192,7 @@ func easyjson6a975c40EncodeCh471(out *jwriter.Writer, in Request) {
 	out.RawByte('}')
 }
 
-// MarshalJSON supports json.Marshaler interface
+// MarshalJSON supports jsontest.Marshaler interface
 func (v Request) MarshalJSON() ([]byte, error) {
 	w := jwriter.Writer{}
 	easyjson6a975c40EncodeCh471(&w, v)
@@ -204,7 +204,7 @@ func (v Request) MarshalEasyJSON(w *jwriter.Writer) {
 	easyjson6a975c40EncodeCh471(w, v)
 }
 
-// UnmarshalJSON supports json.Unmarshaler interface
+// UnmarshalJSON supports jsontest.Unmarshaler interface
 func (v *Request) UnmarshalJSON(data []byte) error {
 	r := jlexer.Lexer{Data: data}
 	easyjson6a975c40DecodeCh471(&r, v)

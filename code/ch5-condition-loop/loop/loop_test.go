@@ -1,6 +1,8 @@
 package loop_test
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestWhileLoop(t *testing.T) {
 	n := 0
@@ -8,4 +10,11 @@ func TestWhileLoop(t *testing.T) {
 		t.Log(n)
 		n++
 	}
+	// 无限循环
+	//for {
+	//	fmt.Println(n)
+	//	n++
+	//}
 }
+
+

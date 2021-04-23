@@ -1,9 +1,12 @@
 package operator_test
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 const (
-	Readable = 1 << iota
+	Readable = 1 << iota  // 就是二进制移位
 	Writable
 	Executable
 )
@@ -18,7 +21,9 @@ func TestCompareArray(t *testing.T) {
 	t.Log(a == d)
 }
 
+// 按位置零 &^ 1 会置零，0 保持原来的
 func TestBitClear(t *testing.T) {
+	fmt.Println(Readable,Writable,Executable)
 	a := 7 //0111
 	a = a &^ Readable
 	a = a &^ Executable

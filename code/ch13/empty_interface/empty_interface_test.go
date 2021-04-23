@@ -5,16 +5,20 @@ import (
 	"testing"
 )
 
+// 函数参数为空接口可以包含为任何类型
 func DoSomething(p interface{}) {
+	// 断言
 	// if i, ok := p.(int); ok {
 	// 	fmt.Println("Integer", i)
 	// 	return
 	// }
+
 	// if s, ok := p.(string); ok {
 	// 	fmt.Println("stirng", s)
 	// 	return
 	// }
 	// fmt.Println("Unknow Type")
+
 	switch v := p.(type) {
 	case int:
 		fmt.Println("Integer", v)
